@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/posts/post",
+    "pages/index/index"
+      ],
+      "window": {
+        "navigationBarBackgroundColor": "#f7f7f7",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "小程序",
+        "backgroundColor": "#abcdef",
+        "backgroundTextStyle": "light",
+        "enablePullDownRefresh": false
+      }
+}
