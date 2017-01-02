@@ -1,9 +1,33 @@
 Page({
   data:{
+
   },
   onLoad:function(options){
     // 生命周期函数--监听页面加载
     console.log("onLoad");
+      var postList = [
+        {
+          date:"sep",
+          title:"浅谈小程序",
+          post_image:"/images/4.jpg",
+          author_image:"/images/avatar.jpg",
+          content:"最近这几天，相信不少人都被微信即将推出的“小程序”刷爆了朋友圈。继订阅号、服务号和企业号之后，微信终于为我们带来了又一重磅功能。有些微妙的是，微信“小程序”总给人一种似曾相识的感觉---如果你熟知Firefox OS、Chrome OS、YUNOS，亦或“轻应用”、H5的话。",
+          vote_num:"100",
+          col_num:"90",
+        },
+        {
+          date:"sep",
+          title:"浅谈小程序",
+          post_image:"/images/5.jpg",
+          author_image:"/images/avatar1.jpg",
+          content:"最近这几天，相信不少人都被微信即将推出的“小程序”刷爆了朋友圈。继订阅号、服务号和企业号之后，微信终于为我们带来了又一重磅功能。有些微妙的是，微信“小程序”总给人一种似曾相识的感觉---如果你熟知Firefox OS、Chrome OS、YUNOS，亦或“轻应用”、H5的话。",
+          vote_num:"130",
+          col_num:"80",
+        }
+      ] 
+    this.setData({
+        postKey:postList
+      });
   },
   onReady:function(){
     // 生命周期函数--监听页面初次渲染完成

@@ -12,35 +12,20 @@
         </swiper-item>
     </swiper>
 </view>
-
-<view class="post-containter">
-  <view class="post-author-date">
-    <image class="post-author" src="/images/avatar.jpg"></image>
-    <text class="post-date">2016.1.2</text>
-  </view>
-  <text class="post-title">浅谈微信小程序</text>
-  <image class="post-image" src="/images/1.jpg"></image>
-  <text class="post-content">最近这几天，相信不少人都被微信即将推出的“小程序”刷爆了朋友圈。继订阅号、服务号和企业号之后，微信终于为我们带来了又一重磅功能。有些微妙的是，微信“小程序”总给人一种似曾相识的感觉---如果你熟知Firefox OS、Chrome OS、YUNOS，亦或“轻应用”、H5的话。</text>
-  <view class="post-like">
-    <image class="post-like-image" src="/images/col.png"></image>
-    <text class="post-like-font">100</text>
-    <image class="post-like-image" src="/images/com.png"></image>
-    <text class="post-like-font">30</text>
-  </view>
+<block wx:for="{{postKey}}" wx:for-item="item">
+  <view class="post-containter">
+    <view class="post-author-date">
+      <image class="post-author" src="{{item.author_image}}"></image>
+      <text class="post-date">{{item.date}}</text>
+    </view>
+    <text class="post-title">{{item.title}}</text>
+    <image class="post-image" src="{{item.post_image}}"></image>
+    <text class="post-content">{{item.content}}</text>
+    <view class="post-like">
+      <image class="post-like-image" src="/images/col.png"></image>
+      <text class="post-like-font">{{item.vote_num}}</text>
+      <image class="post-like-image" src="/images/com.png"></image>
+      <text class="post-like-font">{{item.col_num}}</text>
+    </view>
 </view>
-
-<view class="post-containter">
-  <view class="post-author-date">
-    <image class="post-author" src="/images/avatar.jpg"></image>
-    <text class="post-date">2016.1.2</text>
-  </view>
-  <text class="post-title">浅谈微信小程序</text>
-  <image class="post-image" src="/images/1.jpg"></image>
-  <text class="post-content">最近这几天，相信不少人都被微信即将推出的“小程序”刷爆了朋友圈。继订阅号、服务号和企业号之后，微信终于为我们带来了又一重磅功能。有些微妙的是，微信“小程序”总给人一种似曾相识的感觉---如果你熟知Firefox OS、Chrome OS、YUNOS，亦或“轻应用”、H5的话。</text>
-  <view class="post-like">
-    <image class="post-like-image" src="/images/col.png"></image>
-    <text class="post-like-font">100</text>
-    <image class="post-like-image" src="/images/com.png"></image>
-    <text class="post-like-font">30</text>
-  </view>
-</view>
+</block>
