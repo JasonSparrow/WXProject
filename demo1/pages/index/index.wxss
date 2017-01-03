@@ -21,7 +21,7 @@
   height: 80rpx;
   border-radius: 10rpx;
   margin-top: 200rpx;
-  text-align: center; /*这个属性是不是需要和line-height一起用*/
+  text-align: center;
 }
 .moto {
   font-size: 24rpx;

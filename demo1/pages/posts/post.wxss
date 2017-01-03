@@ -43,10 +43,10 @@ image {
 }
 .post-content {
     color: #666;
-    font-size: 30rpx;
+    font-size: 25rpx;
     margin: 0px 10px 10px 10px;
-    letter-spacing: 5prx;
-    line-height: 20px;
+    letter-spacing: 5px;
+    line-height: 30rpx;
 }
 .post-like {
     font-size: 13px;
@@ -66,5 +66,4 @@ image {
     margin-right: 20px;
     margin-left: 10px;
     color: #666;
-
 }
