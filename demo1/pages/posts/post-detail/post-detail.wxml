@@ -1,0 +1,34 @@
+<view class="containter">
+  <image class="head-image" src="/images/1.png"></image>
+  <image class="audio" src="/images/music.png"></image>
+  <view class="author-date">
+    <image class="avatar" src="/images/avatar.jpg"></image>
+    <text class="author">艾菲</text>
+  </view>
+  <text class="title">网上学习编程的七大趋势</text>
+  <view class="tool">
+    <view class="circle">
+      <image src="/images/collect.png"></image>
+      <image class="share" src="/images/share.png"></image>
+    </view>
+    <view class="horizon"></view>
+  </view>
+  <text class="detail">随着互联网技术的不断提高，网上学习已经越来越普及了。无论是目前，还是将来，它都将会成为一种流行的学习模式。谈及编程，在Glasssdoor最近发布的一份调查报告（top 25 lucrative, in-demand jobs）中，介绍了25份高薪工作。而在这些工作中，超过一半的工作岗位要求具有编程技术。世界正在飞速发展，世界各地对IT技术人才的需求正在不断上升。尤其是在美国，除了硅谷，在其它各洲，同样需要大量擅长编程和开发的技术人才。面对这种趋势，如果你也有兴趣成为一名程序员或开发者，那你应该把学习编程放在你新一年的计划当中了。以下总结七个关于网上学习编程的趋势，希望可以为初学者提供参考。
+9种市场需求最多的编程语言
+
+要想成为一名出色的程序员或开发人员，精通多种编程语言肯定会令你更有竞争力，而且编程语言也会不断更新，变化和改良，因此你在整个职业生涯中，需要不断地学习新的知识和技术，从而令自己的能力得以提高。据Indeed.com发布的一份调查数据显示，在2016年，以下9种编程语言的市场需求是最多的。
+
+SQL
+Java
+JavaScript
+C#
+Python
+C++
+PHP
+iOS/Swift
+Ruby/ Rails
+大数据可以说是无处不在，在网上学习中也不例外。很多学习机构已经采用了大数据分析工具来分析和发现哪些信息可以为他们带来用户。而与大数据相关的培训或学习课程，也成为了很多人的选择。例如，Open SAP就可以为学习者免费提供大数据分析和应用课程。另外，云技术的功能性、便利性和安全性也越来越受企业的欢迎。在网上学习中，很多学习教育平台也采用了云技术来为学生提供技术支持。如果学习云技术的话，可以在CloudAcademy上学习，这是一个让你掌握“云”计算的学习网站。
+
+在2015年的时候，已经有不少教育专家预测在2016年，自动化技术将最终在内容创造和处理上成为极重要的一部分。事实确实如此。很多网上教育平台都在课程和学习材料的设计中采用了自动化技术，以便让学习者在常规的学习过程中可以节省时间和金钱。例如Pencil Code?，这个网站设计了一种学习编程的新方法。使用网站提供的编辑器，用户可以处理文本或block，还可以创建图片、音乐、游戏和故事等，甚至可以开发一种新的编程语言。
+</text>
+</view>
